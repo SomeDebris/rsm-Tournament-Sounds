@@ -235,6 +235,7 @@
       priority = 1
       pitch = 1,
       volume = 0.6,
+      rolloff = 0.9,
       minDist = 200,
       pitchRandomize = 0.09,
    },
@@ -255,6 +256,7 @@
       flags = cluster|cull_vol,
       priority = 2
       volume = 0.7,
+      minDist=300,
       pitchRandomize = 0.05,
    },
 
@@ -326,7 +328,7 @@
       flags = cluster|cull_vol,
       pitchRandomize = 0.5,
       priority=-2,
-      volume = 0.09,
+      volume = 0.1,
       minDist = 100,
    },
 
@@ -335,7 +337,8 @@
       samples = { "world/laser/ll3_v2.ogg" }
       flags = cluster|cull_volume,
       priority = 2
-      volume = 0.7,
+      rolloff=0.4
+      volume = 1.7,
    },
 
    -- agents play these when in range
