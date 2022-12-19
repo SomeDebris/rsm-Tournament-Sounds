@@ -235,7 +235,7 @@
       priority = 1
       pitch = 1,
       volume = 0.6,
-      minDist = 110,
+      minDist = 200,
       pitchRandomize = 0.09,
    },
 
@@ -253,8 +253,8 @@
 		  "world/missile_new/missile_new_09.ogg",
 		  "world/missile_new/missile_new_10.ogg" },
       flags = cluster|cull_vol,
-      priority = 1
-      volume = 0.5,
+      priority = 2
+      volume = 0.7,
       pitchRandomize = 0.05,
    },
 
@@ -270,14 +270,14 @@
       priority = 1,
       pitchRandomize = 0.2,
       volume = 0.5,
-      minDist = 80,
+      minDist = 130,
    },
 
    -- block with P < 2 destroyed
    LowBlockDestroyed = {
       samples = { "world/LowExpl/LowExpl_00.ogg" },
       flags = cluster|cull_vol,
-      priority = -3,
+      priority = -1,
       pitchRandomize = 0.2,
       volume = 0.3,
    },
@@ -311,6 +311,7 @@
       -- pitch = 0.5,
       volume  = 3,
       priority = 10,
+      rolloff = 1.0,
       flags = 0,
    },
 
@@ -325,15 +326,16 @@
       flags = cluster|cull_vol,
       pitchRandomize = 0.5,
       priority=-2,
-      volume = 0.1,
-      minDist = 400,
+      volume = 0.09,
+      minDist = 100,
    },
 
    -- laser weapons
    Laser = {
       samples = { "world/laser/ll3_v2.ogg" }
-      flags = cluster,
-      volume = 0.5,
+      flags = cluster|cull_volume,
+      priority = 2
+      volume = 0.7,
    },
 
    -- agents play these when in range
