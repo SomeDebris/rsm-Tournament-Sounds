@@ -1,1 +1,10 @@
 # Sounds intended to make tournaments sound best.
+
+kSound3DVolumeCull = 0.1
+kSoundClusterRadius = 500
+kSoundClusterVolume = 1.01
+kSoundCrossfadeTime = 2
+kSoundSources = 300
+kSoundVolumeCull = 0.1
+### kSoundZoomParams: float3: { fraction of volume determined by zoom, scale at min volume, scale at max volume}
+kSoundZoomParams = {0.6,3,1}
