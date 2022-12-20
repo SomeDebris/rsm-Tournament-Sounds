@@ -273,7 +273,7 @@
       priority = 3,
       pitchRandomize = 0.2,
       volume = 0.8,
-      rolloff = 0.60
+      rolloff = 0.85
       minDist = 100,
    },
 
@@ -295,11 +295,11 @@
                    "world/explosions/lowExplosion_04.ogg",
                    "world/explosions/lowExplosion_05.ogg" },
       flags = cluster|cull_vol,
-      rolloff = 0.60
+      rolloff = 0.90
       priority = 4,
       minDist = 100
       pitchRandomize = 0.2,
-      volume = 0.9,
+      volume = 0.85,
    },
 
    -- player destroyed a ship and got C
@@ -334,7 +334,7 @@
       priority=-1,
       volume = 0.6,
       rolloff = 0.3
-      minDist = 50,
+      minDist = 30,
    },
 
    -- laser weapons
