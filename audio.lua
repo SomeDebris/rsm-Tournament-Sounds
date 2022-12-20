@@ -218,7 +218,7 @@
       flags = cluster|cull_vol,
       priority = 0,
       pitch = 1,
-      volume = 0.7,
+      volume = 0.75,
       rolloff = 0.6
       minDist = 70,
       pitchRandomize = 0.05,
