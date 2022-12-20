@@ -272,7 +272,7 @@
       flags = cluster|cull_vol,
       priority = 3,
       pitchRandomize = 0.2,
-      volume = 0.9,
+      volume = 0.8,
       rolloff = 0.90
       minDist = 130,
    },
@@ -299,7 +299,7 @@
       priority = 4,
       minDist = 400
       pitchRandomize = 0.2,
-      volume = 0.9,
+      volume = 0.8,
    },
 
    -- player destroyed a ship and got C
@@ -332,7 +332,7 @@
       flags = cluster|cull_vol,
       pitchRandomize = 0.5,
       priority=-1,
-      volume = 0.5,
+      volume = 0.7,
       rolloff = 0.4
       minDist = 10,
    },
@@ -342,7 +342,7 @@
       samples = { "world/laser/ll3_v2.ogg" }
       flags = cluster|cull_volume,
       priority = 2
-      rolloff=0.4
+      rolloff=0.3
       volume = 1.7,
    },
 
