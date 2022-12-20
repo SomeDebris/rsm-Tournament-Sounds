@@ -273,8 +273,8 @@
       priority = 3,
       pitchRandomize = 0.2,
       volume = 0.8,
-      rolloff = 0.90
-      minDist = 130,
+      rolloff = 0.30
+      minDist = 600,
    },
 
    -- block with P < 2 destroyed
@@ -295,9 +295,9 @@
                    "world/explosions/lowExplosion_04.ogg",
                    "world/explosions/lowExplosion_05.ogg" },
       flags = 0,
-      rolloff = 0.90
+      rolloff = 0.30
       priority = 4,
-      minDist = 400
+      minDist = 600
       pitchRandomize = 0.2,
       volume = 0.8,
    },
