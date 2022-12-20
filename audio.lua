@@ -340,7 +340,7 @@
    -- laser weapons
    Laser = {
       samples = { "world/laser/ll3_v2.ogg" }
-      flags = cluster|cull_volume,
+      flags = cluster|cull_vol,
       priority = 2
       rolloff=0.3
       volume = 1.7,
