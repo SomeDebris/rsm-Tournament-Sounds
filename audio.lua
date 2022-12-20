@@ -272,8 +272,8 @@
       flags = cluster|cull_vol,
       priority = 3,
       pitchRandomize = 0.2,
-      volume = 0.5,
-      rolloff = 0.95
+      volume = 0.9,
+      rolloff = 0.90
       minDist = 130,
    },
 
@@ -284,7 +284,7 @@
       priority = 2,
       pitchRandomize = 0.2,
       volume = 0.3,
-   },
+   }
 
    -- command block destroyed
    ExpensiveBlockDestroyed = {
@@ -294,12 +294,12 @@
                    "world/explosions/lowExplosion_03.ogg",
                    "world/explosions/lowExplosion_04.ogg",
                    "world/explosions/lowExplosion_05.ogg" },
-      flags = cluster,
-      rolloff = 0.95
+      flags = 0,
+      rolloff = 0.90
       priority = 4,
       minDist = 400
       pitchRandomize = 0.2,
-      volume = 0.7,
+      volume = 0.9,
    },
 
    -- player destroyed a ship and got C
@@ -332,7 +332,7 @@
       flags = cluster|cull_vol,
       pitchRandomize = 0.5,
       priority=-1,
-      volume = 0.6,
+      volume = 0.5,
       rolloff = 0.4
       minDist = 10,
    },
