@@ -294,7 +294,7 @@
                    "world/explosions/lowExplosion_03.ogg",
                    "world/explosions/lowExplosion_04.ogg",
                    "world/explosions/lowExplosion_05.ogg" },
-      flags = 0,
+      flags = cluster|cull_vol,
       rolloff = 0.60
       priority = 4,
       minDist = 100
