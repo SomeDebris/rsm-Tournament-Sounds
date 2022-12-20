@@ -255,8 +255,8 @@
 		  "world/missile_new/missile_new_10.ogg" },
       flags = cluster|cull_vol,
       priority = 1
-      volume = 0.5,
-      rolloff=0.9
+      volume = 0.45,
+      rolloff=0.8
       minDist=500,
       pitchRandomize = 0.05,
    },
