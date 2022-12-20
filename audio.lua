@@ -297,7 +297,7 @@
       flags = cluster,
       rolloff = 0.95
       priority = 4,
-      minDist=400
+      minDist = 400
       pitchRandomize = 0.2,
       volume = 0.7,
    },
