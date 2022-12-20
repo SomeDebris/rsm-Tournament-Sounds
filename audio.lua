@@ -299,7 +299,7 @@
       priority = 4,
       minDist = 100
       pitchRandomize = 0.2,
-      volume = 0.6,
+      volume = 0.9,
    },
 
    -- player destroyed a ship and got C
