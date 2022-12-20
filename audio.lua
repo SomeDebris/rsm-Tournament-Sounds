@@ -218,7 +218,8 @@
       flags = cluster|cull_vol,
       priority = 0,
       pitch = 1,
-      volume = 0.55,
+      volume = 0.7,
+      rolloff = 0.6
       minDist = 70,
       pitchRandomize = 0.05,
    },
@@ -232,11 +233,10 @@
                    "world/gun_tech_damp/gun_tech_damp_04.ogg"
                    "world/gun_tech_damp/gun_tech_damp_05.ogg" },
       flags = cluster|cull_vol,
-      priority = 1
+      priority = 2
       pitch = 1,
       volume = 0.6,
-      rolloff = 0.9,
-      minDist = 200,
+      minDist = 300,
       pitchRandomize = 0.09,
    },
 
@@ -254,9 +254,10 @@
 		  "world/missile_new/missile_new_09.ogg",
 		  "world/missile_new/missile_new_10.ogg" },
       flags = cluster|cull_vol,
-      priority = 2
-      volume = 0.7,
-      minDist=300,
+      priority = 1
+      volume = 0.5,
+      rolloff=0.9
+      minDist=500,
       pitchRandomize = 0.05,
    },
 
@@ -272,6 +273,7 @@
       priority = 1,
       pitchRandomize = 0.2,
       volume = 0.5,
+      rolloff = 0.95
       minDist = 130,
    },
 
@@ -279,7 +281,7 @@
    LowBlockDestroyed = {
       samples = { "world/LowExpl/LowExpl_00.ogg" },
       flags = cluster|cull_vol,
-      priority = -1,
+      priority = 1,
       pitchRandomize = 0.2,
       volume = 0.3,
    },
@@ -293,7 +295,9 @@
                    "world/explosions/lowExplosion_04.ogg",
                    "world/explosions/lowExplosion_05.ogg" },
       flags = cluster,
+      rolloff = 0.95
       priority = 4,
+      minDist=400
       pitchRandomize = 0.2,
       volume = 0.7,
    },
@@ -309,11 +313,11 @@
       -- samples = { "world/explosions/death2.ogg" },
       -- pitchRandomize = 0.0,
       --rolloff = 0.5,
-      -- minDist = 500,
+      minDist = 1000,
       -- pitch = 0.5,
-      volume  = 3,
+      volume  = 1.2,
       priority = 10,
-      rolloff = 1.0,
+      rolloff = 0.98,
       flags = 0,
    },
 
@@ -327,9 +331,10 @@
                    "world/explosions/explosion_05.ogg" },
       flags = cluster|cull_vol,
       pitchRandomize = 0.5,
-      priority=-2,
-      volume = 0.1,
-      minDist = 100,
+      priority=-1,
+      volume = 0.6,
+      rolloff = 0.4
+      minDist = 10,
    },
 
    -- laser weapons
