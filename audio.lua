@@ -235,8 +235,8 @@
       flags = cluster|cull_vol,
       priority = 2
       pitch = 1,
-      volume = 0.6,
-      minDist = 300,
+      volume = 0.55,
+      minDist = 200,
       pitchRandomize = 0.09,
    },
 
