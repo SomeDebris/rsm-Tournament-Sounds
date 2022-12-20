@@ -272,9 +272,9 @@
       flags = cluster|cull_vol,
       priority = 3,
       pitchRandomize = 0.2,
-      volume = 0.8,
-      rolloff = 0.30
-      minDist = 600,
+      volume = 0.6,
+      rolloff = 0.60
+      minDist = 100,
    },
 
    -- block with P < 2 destroyed
@@ -295,11 +295,11 @@
                    "world/explosions/lowExplosion_04.ogg",
                    "world/explosions/lowExplosion_05.ogg" },
       flags = 0,
-      rolloff = 0.30
+      rolloff = 0.60
       priority = 4,
-      minDist = 600
+      minDist = 100
       pitchRandomize = 0.2,
-      volume = 0.8,
+      volume = 0.6,
    },
 
    -- player destroyed a ship and got C

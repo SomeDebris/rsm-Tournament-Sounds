@@ -2,9 +2,9 @@
 
 kSound3DVolumeCull = 0.01
 kSoundClusterRadius = 500
-kSoundClusterVolume = 1.01
+kSoundClusterVolume = 1.02
 kSoundCrossfadeTime = 2
-kSoundSources = 300
-kSoundVolumeCull = 0.01
+kSoundSources = 1000
+kSoundVolumeCull = 0.1
 ### kSoundZoomParams: float3: { fraction of volume determined by zoom, scale at min volume, scale at max volume}
 kSoundZoomParams = {0.6,3,1}
