@@ -270,7 +270,7 @@
                    "world/explosions/explosion_04.ogg",
                    "world/explosions/explosion_05.ogg" },
       flags = cluster|cull_vol,
-      priority = 1,
+      priority = 3,
       pitchRandomize = 0.2,
       volume = 0.5,
       rolloff = 0.95
@@ -281,7 +281,7 @@
    LowBlockDestroyed = {
       samples = { "world/LowExpl/LowExpl_00.ogg" },
       flags = cluster|cull_vol,
-      priority = 1,
+      priority = 2,
       pitchRandomize = 0.2,
       volume = 0.3,
    },
