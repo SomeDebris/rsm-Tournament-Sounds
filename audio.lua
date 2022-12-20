@@ -332,9 +332,9 @@
       flags = cluster|cull_vol,
       pitchRandomize = 0.5,
       priority=-1,
-      volume = 0.7,
+      volume = 0.65,
       rolloff = 0.4
-      minDist = 10,
+      minDist = 100,
    },
 
    -- laser weapons
