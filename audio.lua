@@ -35,11 +35,9 @@
 
 {
    -- when a button is presesed
-   -- ButtonPress = {
-   --    samples = { "ui/interface_00.ogg" },
-   --    pitchRandomize = 0.0,
-   --    volume = 2,
-   -- },
+   ButtonPress = {
+       volume = 0.0,
+   },
    
    -- -- when various errors occur 
    -- ButtonError = {
@@ -52,11 +50,9 @@
    -- },
 
    -- -- when a button is hovered
-   -- ButtonHover = {
-   --    samples = { "ui/UI Button Hover.ogg" },
-   --    pitchRandomize = 0.0,
-   --    volume = 0.2,
-   -- },
+   ButtonHover = {
+      volume = 0.0,
+   },
 
    -- -- when a new target is targetted
    -- PlayerTarget = {
